@@ -1,0 +1,71 @@
+
+
+
+# define S(M, L, N,  R) J(M, P) (L, N, R )
+# define QL(L, R)QR(L,  R)
+# define P(   L, N,  R)     L,   N,    R
+# define LP(  L, N,  R)   U L, D L, (N, R)
+# define R( L, R)W   (Y(J(E,X)(K(L, R ))))
+
+# define RP(  L, N,  R)(L, N), H R, T  R
+# define HP(  L, N,  R)          L, N, R
+# define K( L, R)J(F, V)(L, R)J  \
+( Q,sym_ (  K, M  (  L, B R)))  (L, R    )
+# define Q( L, R)QR(L,  R)
+
+# define E( X)E3(X)
+# define break  H ,
+# define E0(X)X
+# define I( X, E) K
+# define EX(X)E3(X)
+
+
+
+
+
+
+
+
+
+A R , A J(G(L, _)  ,B R),   C    R ))
+C))  (C J(G(L, _)  ,B R),QS(L, R   ))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# define Z( L, R)  J (B L,   Y)
+# define N( L, R)  J (G(L,   _), B R)
+# define HY(L   )  (A   L,   halting)
+# define T( R, L)  G(sym_, R)(L, (,))
+# define H( R, L)  G(sym_, R)(R,  _ )
+
+# define M( L, R)  B J( G(L, _),  R )
+# define D( L, R)  G(sym_, R)(R,  _ )
+# define U( L, R)  G(sym_, R)(L, (,))
+# define F0(L, R)  F(   L,  R )
+# define F1(L, R)  F0(  L,  R)~
+
+# define F2(L, R)  F1(  L,  R  )R\t<L[B R]>\t-> \
+Z ( N( L, R)  , R) (N( L, R) )\n
+# define FV(L, R)  F(   L,  R )
+# define QH(L, R)  QS(  L,   R)
+
+int puts (char*);
+# define W(W)O(W)
+int main () {puts
+# define O(W)#W
+( R ( A, tape));}
+
+
+
