@@ -1,0 +1,98 @@
+
+\data\
+ngram 1=13
+ngram 2=24
+ngram 3=26
+ngram 4=19
+
+\1-grams:
+-0.5926525	</s>
+-99	<s>	-99
+-99	<unk>
+-1.659599	bark	-99
+-0.9606293	birds	-99
+-0.8936825	cats	-99
+-0.9326006	chase	-99
+-1.396358	chirp	-99
+-1.592653	do	-99
+-0.8695489	dogs	-99
+-1.182478	meow	-99
+-1.592653	not	-99
+-1.115531	the	-99
+
+\2-grams:
+-0.4833702	<s> cats	0
+-0.2768963	<s> dogs	0
+-0.845098	<s> the	-0.4181434
+0	bark </s>
+-0.1983677	birds </s>
+-0.4357286	birds chirp	0
+-0.39794	cats </s>
+-0.544068	cats chase	-0.4393327
+-0.5026754	cats meow	0.1760913
+-1.50515	chase </s>
+-0.3590219	chase birds	-0.7403628
+-0.6600519	chase cats	-0.6812413
+-0.50515	chase the	0
+0	chirp </s>
+0	do not	0
+-1.267172	dogs </s>
+-0.7900504	dogs bark	0
+-0.225779	dogs chase	0.1627278
+-0.7231037	dogs do	0
+-0.02482358	meow </s>
+-1.255273	meow the
+0	not meow	0.4101745
+-0.1180993	the birds	0
+-0.6232493	the cats	-0.5563025
+
+\3-grams:
+0	dogs bark </s>
+-0.02996322	chase birds </s>
+-0.50515	the birds </s>
+-0.1627273	the birds chirp	0
+-1.060698	<s> cats </s>
+-0.3617278	<s> cats chase	0
+-0.3203351	<s> cats meow	0
+-0.05799195	chase cats </s>
+-0.07918125	the cats </s>
+-0.2632414	cats chase birds	0.3309933
+-0.4393327	cats chase the	-0.39794
+-0.4393327	dogs chase birds	0.2218488
+-0.4973246	dogs chase cats	0
+-0.5642715	dogs chase the	-0.4771213
+0	birds chirp </s>
+0	dogs do not	0
+-1.267172	<s> dogs </s>
+-0.7900505	<s> dogs bark	0
+-0.225779	<s> dogs chase	0
+-0.7231036	<s> dogs do	0
+-0.03778856	cats meow </s>
+-0.06694679	not meow </s>
+0	do not meow	0
+-0.04139268	<s> the birds	-0.5362427
+-0.30103	chase the birds	-0.615424
+-0.30103	chase the cats	0
+
+\4-grams:
+0	<s> dogs bark </s>
+-0.06694679	cats chase birds </s>
+-0.05115252	dogs chase birds </s>
+-0.04139268	<s> the birds chirp
+-0.07918125	chase the birds </s>
+-0.05799195	dogs chase cats </s>
+-0.07918125	chase the cats </s>
+-0.2632414	<s> cats chase birds
+-0.4393327	<s> cats chase the
+-0.4393327	<s> dogs chase birds
+-0.4973246	<s> dogs chase cats
+-0.5642715	<s> dogs chase the
+0	the birds chirp </s>
+0	<s> dogs do not
+-0.03778856	<s> cats meow </s>
+-0.06694679	do not meow </s>
+0	dogs do not meow
+-0.09691001	cats chase the birds
+-0.07918125	dogs chase the cats
+
+\end\

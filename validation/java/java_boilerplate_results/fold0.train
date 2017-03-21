@@ -1,0 +1,471 @@
+public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    public void creativeMethod ( ) { 
+      String s1 = "Computer Science" ; 
+      int x = 307 ; 
+      String s2 = s1 + " " + x ; 
+      String s3 = s2 . substring ( 10 , 17 ) ; 
+      String s4 = "is fun" ; 
+      String s5 = s2 + s4 ; 
+    } 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    public static void reallyCreative ( int [ ] list ) { 
+      for ( int i = 0 ; i < list . length ; i ++ ) { 
+       list [ i ] ++ ; 
+    } 
+   } 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} import java . awt . Rectangle ; 
+public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    public static void ohsocreative ( ) { 
+      Rectangle r1 = new Rectangle ( 0 , 0 , 5 , 5 ) ; 
+    System . out . println ( "In method go. r1 " + r1 + "\n" ) ; 
+    r1 . setSize ( 10 , 15 ) ; 
+    System . out . println ( "In method go. r1 " + r1 + "\n" ) ; 
+   } 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    private int size ; 
+    public void add ( int value ) { 
+        int pos = 0 ; 
+        while ( pos < size && value > pos ) { 
+            pos ++ ; 
+        } 
+    } 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    public static final double NANOS_PER_SEC = 1000000000.0 ; 
+    public double time ( ) { 
+      return ( a - b ) / NANOS_PER_SEC ; 
+    } 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    public static int fact ( int n ) { 
+      int result = 0 ; 
+     if ( n == 0 ) 
+     result = 1 ; 
+    else 
+     result = n * fact ( n - 1 ) ; 
+    return result ; 
+   } 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    public static int slowfib ( int n ) { 
+      int result = 0 ; 
+      if ( n == 1 || n == 2 ) 
+        result = 1 ; 
+      else 
+        result = fib ( n - 1 ) + fib ( n - 2 ) ; 
+      return result ; 
+   } 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} public class VanillaBoilerplate 
+{ 
+    private int a ; 
+    private int b ; 
+    private int c ; 
+    public VanillaBoilerplate ( ) { 
+        a = 0 ; 
+        b = 0 ; 
+        c = 0 ; 
+    } 
+    public VanillaBoilerplate ( int x , int y , int z ) { 
+      this . a = x ; 
+      this . b = y ; 
+      this . c = c ; 
+    } 
+    public VanillaBoilerplate ( VanillaBoilerplate v ) { 
+      this . a = v . a ; 
+      this . b = v . b ; 
+      this . c = v . c ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getA ( ) { 
+        return this . a ; 
+    } 
+    public void setA ( int x ) { 
+      this . a = x ; 
+    } 
+    public int getB ( ) { 
+        return this . b ; 
+    } 
+    public void setB ( int x ) { 
+      this . b = x ; 
+    } 
+    public int getC ( ) { 
+        return this . c ; 
+    } 
+    public void setC ( int x ) { 
+      this . c = x ; 
+    } 
+    public boolean equals ( VanillaBoilerplate v ) { 
+      return this . a == v . a && this . b == v . b && this . c == v . c ; 
+    } 
+    public string toString ( ) { 
+      return "a = " + a + " b = " + b + " c = " + c ; 
+    } 
+} 

@@ -1,0 +1,1373 @@
+
+\data\
+ngram 1=108
+ngram 2=278
+ngram 3=176
+ngram 4=190
+ngram 5=175
+ngram 6=146
+ngram 7=114
+ngram 8=88
+ngram 9=67
+
+\1-grams:
+-1.800043	"	-99
+-3.490239	"Computer	-99
+-3.189209	"In	-99
+-3.189209	"\n"	-99
+-2.535997	"a	-99
+-3.490239	"is	-99
+-2.211486	&&	-99
+-1.383029	(	-99
+-1.383029	)	-99
+-3.490239	*	-99
+-1.765964	+	-99
+-3.013118	++	-99
+-2.128512	,	-99
+-2.88818	-	-99
+-1.174269	.	-99
+-3.490239	/	-99
+-1.958761	0	-99
+-2.79127	1	-99
+-3.189209	10	-99
+-3.490239	1000000000.0	-99
+-3.490239	15	-99
+-3.490239	17	-99
+-3.189209	2	-99
+-3.490239	307	-99
+-3.189209	5	-99
+-1.155786	;	-99
+-3.189209	<	-99
+-0.8172186	</s>
+-99	<s>	-99
+-99	<unk>
+-1.286119	=	-99
+-2.013118	==	-99
+-3.490239	>	-99
+-3.189209	NANOS_PER_SEC	-99
+-3.013118	Rectangle	-99
+-3.490239	Science"	-99
+-2.79127	String	-99
+-3.189209	System	-99
+-1.757846	VanillaBoilerplate	-99
+-3.189209	[	-99
+-3.189209	]	-99
+-1.49024	a	-99
+-3.490239	add	-99
+-3.490239	awt	-99
+-1.49024	b	-99
+-2.535997	boolean	-99
+-1.456816	c	-99
+-2.535997	class	-99
+-3.490239	creativeMethod	-99
+-3.189209	double	-99
+-3.189209	else	-99
+-2.535997	equals	-99
+-3.189209	fact	-99
+-3.189209	fib	-99
+-3.490239	final	-99
+-3.490239	for	-99
+-3.490239	fun"	-99
+-2.535997	getA	-99
+-2.535997	getB	-99
+-2.535997	getC	-99
+-3.189209	go.	-99
+-2.88818	i	-99
+-3.189209	if	-99
+-3.490239	import	-99
+-1.37965	int	-99
+-3.490239	java	-99
+-3.490239	length	-99
+-3.013118	list	-99
+-3.189209	method	-99
+-2.535997	n	-99
+-3.490239	new	-99
+-3.490239	ohsocreative	-99
+-3.189209	out	-99
+-2.88818	pos	-99
+-3.189209	println	-99
+-2.043082	private	-99
+-1.39333	public	-99
+-2.712088	r1	-99
+-3.490239	reallyCreative	-99
+-2.587149	result	-99
+-1.808998	return	-99
+-3.189209	s1	-99
+-3.013118	s2	-99
+-3.490239	s3	-99
+-3.189209	s4	-99
+-3.490239	s5	-99
+-2.234967	setA	-99
+-2.535997	setB	-99
+-2.535997	setC	-99
+-3.490239	setSize	-99
+-3.189209	size	-99
+-3.490239	slowfib	-99
+-2.79127	static	-99
+-2.535997	string	-99
+-3.490239	substring	-99
+-1.331877	this	-99
+-3.490239	time	-99
+-2.535997	toString	-99
+-1.632907	v	-99
+-3.189209	value	-99
+-1.88818	void	-99
+-3.490239	while	-99
+-1.526452	x	-99
+-2.234967	y	-99
+-2.535997	z	-99
+-1.389869	{	-99
+-3.490239	||	-99
+-1.389869	}	-99
+
+\2-grams:
+-1.690196	" "
+-0.2130748	" +	-1.133056
+-0.7359536	" b	-0.7403626
+-0.7359536	" c	-0.7659168
+0	"Computer Science"
+0	"In method	0
+0	"\n" )	-0.4526967
+0	"a =	-0.9197317
+0	"is fun"
+-0.0234811	&& this	0
+-1.278754	&& value
+-1.80618	( "In	0
+-0.4259687	( )	-0.6243788
+-2.10721	( 0
+-1.80618	( 10	0
+-0.8519375	( VanillaBoilerplate	-1.102662
+-2.10721	( a
+-0.40824	( int	-1.019744
+-1.40824	( n	-0.30103
+-2.10721	( pos
+-2.10721	) +
+-2.10721	) /
+-1.262112	) ;	1.130334
+-1.80618	) </s>
+-0.03902411	) {	0
+0	* fact
+-0.4455223	+ "	-1.079919
+-1.423246	+ "\n"	0
+-0.7700334	+ a	-0.9590414
+-0.7700334	+ b	-0.9590414
+-0.7700334	+ c	-0.69897
+-1.724276	+ fib
+-1.423246	+ r1	-0.30103
+-1.724276	+ s4
+-1.724276	+ x
+-0.4771213	++ )
+-0.1760913	++ ;	1.556302
+-1.361728	, 0
+-1.361728	, 15
+-1.361728	, 17
+-1.060698	, 5
+-0.1064553	, int	-1.213487
+-0.30103	- 1	-0.2552725
+-0.60206	- 2
+-0.60206	- b
+-2.31597	. Rectangle
+-0.4586379	. a	-0.8633233
+-2.31597	. awt
+-0.5166298	. b	-0.8061795
+-0.5166298	. c	0
+-2.31597	. length
+-2.01494	. out	0
+-2.01494	. println	0
+-2.31597	. setSize
+-2.31597	. substring
+0	/ NANOS_PER_SEC
+-1.531479	0 )
+-1.230449	0 ,
+-0.04011722	0 ;	0.5420619
+-0.39794	1 )
+-0.39794	1 ;	1.556302
+-0.69897	1 ||
+0	10 ,
+0	1000000000.0 ;
+0	15 )
+0	17 )
+0	2 )
+0	307 ;
+-0.30103	5 )
+-0.30103	5 ,
+-0.004039978	; </s>
+-2.033424	; i
+-0.30103	< list
+-0.30103	< size
+-2.673021	<s> Rectangle
+-1.974051	<s> String
+-2.371991	<s> System	0
+-1.718778	<s> a	-0.7403626
+-1.718778	<s> b	-0.7403626
+-1.718778	<s> c	-0.7659168
+-2.371991	<s> else	0
+-2.673021	<s> for
+-2.371991	<s> if	0
+-2.070961	<s> int	-0.294244
+-2.673021	<s> list
+-2.673021	<s> pos
+-1.225863	<s> private	0
+-0.6011389	<s> public	0.02502847
+-2.673021	<s> r1
+-2.070961	<s> result	-0.09691
+-0.9917797	<s> return	0
+-0.7187784	<s> this	0
+-2.673021	<s> while
+-1.718778	<s> {	0
+-0.5726504	<s> }	0
+-0.7727562	= "	-1.035715
+-2.20412	= "Computer
+-2.20412	= "is
+-0.7127583	= 0	-0.4507923
+-1.90309	= 1	-0.2552725
+-2.20412	= 1000000000.0
+-2.20412	= 307
+-1.249877	= c	-0.69897
+-2.20412	= fib
+-2.20412	= n
+-2.20412	= new
+-2.20412	= s1
+-1.90309	= s2
+-0.7727562	= v	-0.845098
+-0.5509075	= x	-1.361728
+-1.249877	= y	-0.69897
+-1.477121	== 0
+-1.477121	== 1
+-1.477121	== 2
+-0.04575749	== v	-0.845098
+0	> pos
+-0.30103	NANOS_PER_SEC ;
+-0.30103	NANOS_PER_SEC =
+-0.4771213	Rectangle (
+-0.4771213	Rectangle ;
+-0.4771213	Rectangle r1
+0	Science" ;
+-0.69897	String s1
+-0.69897	String s2
+-0.69897	String s3
+-0.69897	String s4
+-0.69897	String s5
+0	System .	-0.4729048
+-0.30103	VanillaBoilerplate (	-0.4191296
+-0.7781513	VanillaBoilerplate </s>
+-0.4771213	VanillaBoilerplate v	-1.153815
+-0.30103	[ ]
+-0.30103	[ i
+-0.30103	] ++
+-0.30103	] list
+-1.045758	a &&	0.2787536
+-1.045758	a +	-0.8072031
+-2	a -
+-0.5686362	a ;	0.5862657
+-0.3467875	a =	-1.214512
+-1.045758	a ==	0
+0	add (
+0	awt .
+-1.045758	b &&	0.2787536
+-2	b )
+-1.045758	b +	-0.8072031
+-0.5686362	b ;	0.5862657
+-0.3467875	b =	-0.7808562
+-1.045758	b ==	0
+0	boolean equals	0
+-0.30103	c ;	0.293061
+-0.3802112	c =	-0.7808562
+-1.079181	c ==	0
+0	class VanillaBoilerplate	-0.9208187
+0	creativeMethod (
+-0.30103	double NANOS_PER_SEC
+-0.30103	double time
+0	else </s>
+0	equals (	-0.9341827
+0	fact (
+0	fib (	-0.4598164
+0	final double
+0	for (
+0	fun" ;
+0	getA (	-0.79588
+0	getB (	-0.79588
+0	getC (	-0.79588
+0	go. r1	-0.30103
+-0.60206	i ++
+-0.60206	i <
+-0.60206	i =
+-0.60206	i ]
+0	if (	-0.4598164
+0	import java
+-2.11059	int [
+-1.156347	int a	-0.8633229
+-1.156347	int b	-0.8633229
+-1.156347	int c	-0.69897
+-2.11059	int fact
+-1.156347	int getA	0
+-1.156347	int getB	0
+-1.156347	int getC	0
+-2.11059	int i
+-1.80956	int n	-0.3679768
+-2.11059	int pos
+-1.80956	int result	0.1249388
+-2.11059	int size
+-2.11059	int slowfib
+-2.11059	int value
+-0.4478319	int x	-1.371068
+-1.156347	int y	-0.69897
+-1.156347	int z	0
+0	java .
+0	length ;
+-0.4771213	list )
+-0.4771213	list .
+-0.4771213	list [
+0	method go.	0
+-0.6532125	n )	0.588696
+-0.9542425	n *
+-0.4771213	n -	-0.1760913
+-0.4771213	n ==
+0	new Rectangle
+0	ohsocreative (
+0	out .	-0.4729048
+-0.60206	pos )
+-0.60206	pos ++
+-0.60206	pos <
+-0.60206	pos =
+0	println (	-0.4702818
+0	private int	-1.345169
+-0.6655462	public VanillaBoilerplate	-1.146128
+-1.142668	public boolean	0
+-1.142668	public class	0
+-2.09691	public double
+-0.6655462	public int	-1.345169
+-1.39794	public static	0
+-1.142668	public string	0
+-0.5171264	public void	-0.2787537
+-0.4771213	r1 "	-0.06567878
+-0.4771213	r1 +	-0.4604156
+-0.7781513	r1 .
+-0.7781513	r1 =
+0	reallyCreative (
+-0.60206	result ;	1.556302
+-0.1249387	result =	-0.376805
+-0.7269987	return "a	0
+-1.681241	return (
+-1.380211	return result	-0.3521825
+-0.1249387	return this	0
+-0.30103	s1 +
+-0.30103	s1 =
+-0.4771213	s2 +
+-0.4771213	s2 .
+-0.4771213	s2 =
+0	s3 =
+-0.30103	s4 ;
+-0.30103	s4 =
+0	s5 =
+0	setA (	-1.063638
+0	setB (	-0.7848846
+0	setC (	-0.7848846
+0	setSize (
+-0.30103	size &&
+-0.30103	size ;
+0	slowfib (
+-0.69897	static final
+-0.39794	static int
+-0.39794	static void
+0	string toString	0
+0	substring (
+0	this .	-0.7996428
+0	time (
+0	toString (	-0.79588
+-0.60206	v )	-0.2129364
+-0.1249387	v .	-0.3786346
+-0.30103	value )
+-0.30103	value >
+-1.60206	void add
+-1.60206	void creativeMethod
+-1.60206	void ohsocreative
+-1.60206	void reallyCreative
+-0.3467875	void setA	0
+-0.6478175	void setB	0
+-0.6478175	void setC	0
+0	while (
+-0.4074853	x )	-0.5023844
+-1.009545	x ,	-0.3372422
+-0.30103	x ;	0.3613259
+-1.963788	x =
+-0.30103	y ,	-0.3372422
+-0.30103	y ;	1.033424
+0	z )	0.06581724
+0	{ </s>
+0	|| n
+-0.02848854	} </s>
+-2.100371	} import
+-1.255273	} public	-0.870638
+
+\3-grams:
+-0.3245111	+ " b	0
+-0.3245111	+ " c	0
+-0.01579427	= " +	-0.4471585
+-0.1760913	r1 " +	-0.447158
+0	( "In method	0
+0	+ "\n" )	0
+0	return "a =	0
+-0.04575749	a && this	0
+-0.04575749	b && this	0
+-0.4929155	VanillaBoilerplate ( )	0.690196
+-0.4929155	VanillaBoilerplate ( VanillaBoilerplate	0.2787536
+-0.4929155	VanillaBoilerplate ( int	0
+-0.04575749	equals ( VanillaBoilerplate	0.2787536
+-0.1760913	fib ( n	-0.1760913
+-0.04575749	getA ( )	0.690196
+-0.04575749	getB ( )	0.690196
+-0.04575749	getC ( )	0.690196
+-0.1760913	if ( n	-0.30103
+-0.1760913	println ( "In	0
+-0.0234811	setA ( int	-0.2787536
+-0.04575749	setB ( int	0
+-0.04575749	setC ( int	0
+-0.04575749	toString ( )	0.690196
+-0.1760913	"\n" ) ;	0.4259687
+-0.008954843	( ) {	0
+-0.1760913	n ) {	0
+-0.0234811	v ) {	0
+-0.01189922	x ) {	0
+-0.04575749	z ) {	0
+-0.5228788	" + a	0
+-0.5228788	" + b	0
+-0.5228788	" + c	0
+-1.176091	" + r1	0
+-0.04575749	a + "	-0.7212464
+-0.04575749	b + "	-0.7212464
+-0.1760913	r1 + "\n"	0
+-0.04575749	x , int	-0.7212464
+-0.04575749	y , int	-0.7212464
+-0.1760913	n - 1	0
+-0.1760913	System . out	0
+-0.1760913	out . println	0
+-0.4289742	this . a	-0.87704
+-0.5081555	this . b	-0.8565775
+-0.5081555	this . c	0
+-0.4850902	v . a	-1.078189
+-0.4850902	v . b	-1.040776
+-0.4850902	v . c	-1.035716
+-0.01378828	= 0 ;	0
+-0.1760913	- 1 )
+-0.1760913	= 1 ;	0
+0	( 10 ,
+-0.05799195	) ; </s>
+-0.1760913	++ ; </s>
+-0.01424044	0 ; </s>
+-0.1760913	1 ; </s>
+-0.01579427	a ; </s>
+-0.01579427	b ; </s>
+-0.00796893	c ; </s>
+-0.1760913	result ; </s>
+-0.009340026	x ; </s>
+-0.04575749	y ; </s>
+-0.04575749	"a = "	0.447158
+-0.7085153	a = 0	0.50515
+-0.7085153	a = v	0.447158
+-0.2313941	a = x	0.2155999
+-0.7085153	b = "	0.447158
+-0.7085153	b = 0	0.50515
+-0.7085153	b = v	0.447158
+-0.7085153	b = x	0.6627579
+-0.7085153	b = y	0
+-0.7085153	c = "	0.447158
+-0.7085153	c = 0	0.50515
+-0.7085153	c = c	0
+-0.7085153	c = v	0.447158
+-0.7085153	c = x	0.6627579
+-0.4771213	result = 0	1.028029
+-0.4771213	result = 1	0
+-0.04575749	a == v	0.447158
+-0.04575749	b == v	0.447158
+-0.04575749	c == v	0.447158
+0	<s> System .	0
+-0.0234811	( VanillaBoilerplate v	0
+-0.04575749	class VanillaBoilerplate </s>
+-0.01579427	public VanillaBoilerplate (	0
+-0.04575749	+ a +	0
+-0.9090803	. a &&	0
+-0.6080503	. a ;	0.1684043
+-0.3070204	. a =	-0.9054441
+-0.9090803	. a ==	0
+-0.04575749	<s> a =	-0.9054439
+-0.04575749	int a ;	0.447158
+-0.04575749	" b =	-0.9054439
+-0.04575749	+ b +	0
+-0.8519375	. b &&	0
+-0.5509075	. b ;	0.1684043
+-0.3748162	. b =	-1.063154
+-0.8519375	. b ==	0
+-0.04575749	<s> b =	-0.9054439
+-0.04575749	int b ;	0.447158
+0	public boolean equals	0
+-0.04575749	" c =	-0.9054439
+-0.04575749	+ c ;	0.7403626
+-0.3679768	. c ;	0.2932047
+-0.3679768	. c =	-1.063154
+-0.845098	. c ==	0
+-0.04575749	<s> c =	-0.9054439
+-0.04575749	= c ;	0.7403626
+-0.04575749	int c ;	0.7403626
+0	public class VanillaBoilerplate	0
+0	<s> else </s>
+0	boolean equals (	0
+0	int getA (	0
+0	int getB (	0
+0	int getC (	0
+0	method go. r1	0
+0	<s> if (	0
+-1.39794	( int n	0
+-0.04575749	( int x	0
+-0.3245111	, int y	0
+-0.3245111	, int z	0
+-0.30103	<s> int result	0
+-0.4929155	private int a	0
+-0.4929155	private int b	0
+-0.4929155	private int c	0
+-0.4929155	public int getA	0
+-0.4929155	public int getB	0
+-0.4929155	public int getC	0
+0	"In method go.	0
+-0.30103	( n -	0
+-0.4771213	( n ==
+-0.1760913	int n )	0
+0	. out .	0
+0	. println (	0
+0	<s> private int	0
+-0.6405182	<s> public VanillaBoilerplate	0
+-1.11764	<s> public boolean	0
+-1.770852	<s> public class	0
+-0.6405182	<s> public int	0
+-1.372912	<s> public static	0
+-1.11764	<s> public string	0
+-0.4920984	<s> public void	0
+-0.05799195	} public class	0
+-0.1760913	+ r1 +	0
+-0.1760913	go. r1 "	0
+-0.09691001	<s> result =	-0.1249387
+-0.1760913	int result =	-0.30103
+-0.1760913	return result ;	0
+-0.7269987	<s> return "a	0
+-1.380211	<s> return result	0
+-0.1249387	<s> return this	0
+0	void setA (	0
+0	void setB (	0
+0	void setC (	0
+-0.39794	public static int
+-0.39794	public static void
+0	public string toString	0
+0	&& this .	-0.8577484
+0	<s> this .	0.2023306
+0	return this .	0.593168
+0	string toString (	0
+-0.01579427	= v .	0.2932037
+-0.01579427	== v .	0.2932037
+-0.0234811	VanillaBoilerplate v )	0
+-0.3245111	public void setA	0
+-0.6255411	public void setB	0
+-0.6255411	public void setC	0
+-0.009545318	= x ;	0.009339929
+-0.1064553	int x )	0
+-0.7085153	int x ,	0
+-0.04575749	= y ;	0
+-0.04575749	int y ,	0
+0	int z )	0
+0	) { </s>
+0	<s> { </s>
+-0.02848854	<s> } </s>
+-1.255273	<s> } public	0
+
+\4-grams:
+-0.04575749	a + " b	0
+-0.04575749	b + " c	0
+-0.04575749	"a = " +	-0.8315955
+-0.04575749	b = " +	-0.8315955
+-0.04575749	c = " +	-0.8315955
+-0.1760913	go. r1 " +	0
+0	println ( "In method	0
+0	r1 + "\n" )	0
+0	<s> return "a =	0
+-0.04575749	. a && this	0
+-0.04575749	. b && this	0
+-0.4929155	public VanillaBoilerplate ( )	0
+-0.4929155	public VanillaBoilerplate ( VanillaBoilerplate	0
+-0.4929155	public VanillaBoilerplate ( int	0
+-0.04575749	boolean equals ( VanillaBoilerplate	0
+-0.04575749	int getA ( )	0
+-0.04575749	int getB ( )	0
+-0.04575749	int getC ( )	0
+-0.1760913	<s> if ( n	0
+-0.1760913	. println ( "In	0
+-0.0234811	void setA ( int	0
+-0.04575749	void setB ( int	0
+-0.04575749	void setC ( int	0
+-0.04575749	string toString ( )	0
+-0.1760913	+ "\n" ) ;	0
+-0.04575749	VanillaBoilerplate ( ) {	0
+-0.04575749	getA ( ) {	0
+-0.04575749	getB ( ) {	0
+-0.04575749	getC ( ) {	0
+-0.04575749	toString ( ) {	0
+-0.1760913	int n ) {	0
+-0.0234811	VanillaBoilerplate v ) {	0
+-0.01189922	int x ) {	0
+-0.04575749	int z ) {	0
+-0.4929155	= " + a	0
+-0.4929155	= " + b	0
+-0.4929155	= " + c	0
+-0.1760913	r1 " + r1	0
+-0.04575749	+ a + "	0
+-0.04575749	+ b + "	0
+-0.1760913	+ r1 + "\n"	0
+-0.04575749	int x , int	0
+-0.04575749	int y , int	0
+-0.1760913	( n - 1	0
+-0.1760913	<s> System . out	0
+-0.1760913	. out . println	0
+-0.3245111	&& this . b	-0.9054439
+-0.3245111	&& this . c	-0.90309
+-0.4027389	<s> this . a	-1.106593
+-0.5276777	<s> this . b	-1.063154
+-0.5276777	<s> this . c	-1.049218
+-0.3129292	return this . a	-1.106593
+-0.6139592	return this . b	-0.9054439
+-0.6139592	return this . c	-0.90309
+-0.4929155	= v . a	-0.7212464
+-0.4929155	= v . b	-0.7212464
+-0.4929155	= v . c	0.2787536
+-0.4929155	== v . a	-0.7212464
+-0.4929155	== v . b	-0.7212464
+-0.4929155	== v . c	0.2787536
+-0.04575749	a = 0 ;	0.4913617
+-0.04575749	b = 0 ;	0.4913617
+-0.04575749	c = 0 ;	0.4913617
+-0.1760913	result = 0 ;	1.014241
+-0.1760913	n - 1 )
+-0.1760913	result = 1 ;	0
+-0.1760913	"\n" ) ; </s>
+-0.01424044	= 0 ; </s>
+-0.1760913	= 1 ; </s>
+-0.0234811	. a ; </s>
+-0.04575749	int a ; </s>
+-0.0234811	. b ; </s>
+-0.04575749	int b ; </s>
+-0.04575749	+ c ; </s>
+-0.01579427	. c ; </s>
+-0.04575749	= c ; </s>
+-0.04575749	int c ; </s>
+-0.1760913	return result ; </s>
+-0.009545318	= x ; </s>
+-0.04575749	= y ; </s>
+-0.04575749	return "a = "	0
+-0.6139592	. a = v	0
+-0.136838	. a = x	0
+-0.04575749	<s> a = 0	0
+-0.04575749	" b = "	0
+-0.4929155	. b = v	0
+-0.4929155	. b = x	0
+-0.4929155	. b = y	0
+-0.04575749	<s> b = 0	0
+-0.04575749	" c = "	0
+-0.4929155	. c = c	0
+-0.4929155	. c = v	0
+-0.4929155	. c = x	0
+-0.04575749	<s> c = 0	0
+-0.30103	<s> result = 1	0
+-0.1760913	int result = 0	0
+-0.04575749	. a == v	0
+-0.04575749	. b == v	0
+-0.04575749	. c == v	0
+-0.04575749	VanillaBoilerplate ( VanillaBoilerplate v	0.2787536
+-0.04575749	equals ( VanillaBoilerplate v	0.2787536
+-0.04575749	public class VanillaBoilerplate </s>
+-0.01579427	<s> public VanillaBoilerplate (	0
+-0.04575749	" + a +	0
+-0.7861202	this . a ;	0.2787536
+-0.1840602	this . a =	0
+-0.7861202	this . a ==	0
+-0.3245111	v . a &&	0
+-0.3245111	v . a ;	0.2787536
+-0.04575749	private int a ;	0
+-0.04575749	+ " b =	0
+-0.04575749	" + b +	0
+-0.7085153	this . b ;	0.2787536
+-0.2313941	this . b =	0
+-0.7085153	this . b ==	0
+-0.3245111	v . b &&	0
+-0.3245111	v . b ;	0.2787536
+-0.04575749	private int b ;	0
+0	<s> public boolean equals	0
+-0.04575749	+ " c =	0
+-0.04575749	" + c ;	0
+-0.69897	this . c ;	0.447158
+-0.2218487	this . c =	0
+-0.69897	this . c ==	0
+-0.0234811	v . c ;	0.1684043
+-0.04575749	c = c ;	0
+-0.04575749	private int c ;	0
+0	<s> public class VanillaBoilerplate	0.5228788
+0	} public class VanillaBoilerplate	0.09691
+0	public boolean equals (	0
+0	public int getA (	0
+0	public int getB (	0
+0	public int getC (	0
+0	"In method go. r1	0
+-0.04575749	VanillaBoilerplate ( int x	-0.9054439
+-0.0234811	setA ( int x	-0.6159958
+-0.04575749	setB ( int x	-0.3372422
+-0.04575749	setC ( int x	-0.3372422
+-0.04575749	x , int y	0
+-0.04575749	y , int z	0
+-0.4929155	<s> private int a	0
+-0.4929155	<s> private int b	0
+-0.4929155	<s> private int c	0
+-0.4929155	<s> public int getA	0
+-0.4929155	<s> public int getB	0
+-0.4929155	<s> public int getC	0
+0	( "In method go.	0
+-0.1760913	fib ( n -
+-0.1760913	if ( n ==
+-0.1760913	( int n )	0
+0	System . out .	0
+0	out . println (	0
+-0.05799195	<s> } public class	0
+-0.1760913	" + r1 +	0
+-0.1760913	method go. r1 "	0
+-0.1760913	<s> int result =	0
+-0.1760913	<s> return result ;	0
+0	public void setA (	0
+0	public void setB (	0
+0	public void setC (	0
+-0.39794	<s> public static int
+-0.39794	<s> public static void
+0	<s> public string toString	0
+0	a && this .	-0.7212464
+0	b && this .	-0.7212464
+0	<s> return this .	0
+0	public string toString (	0
+-0.04575749	a = v .	-0.8315955
+-0.04575749	b = v .	-0.8315955
+-0.04575749	c = v .	-0.8315955
+-0.04575749	a == v .	-0.8315955
+-0.04575749	b == v .	-0.8315955
+-0.04575749	c == v .	-0.8315955
+-0.0234811	( VanillaBoilerplate v )	0
+-0.3245111	<s> public void setA	0
+-0.6255411	<s> public void setB	0
+-0.6255411	<s> public void setC	0
+-0.01579427	a = x ;	0.2155999
+-0.04575749	b = x ;	0.6627579
+-0.04575749	c = x ;	0.6627579
+-0.1064553	( int x )	0
+-0.7085153	( int x ,	0
+-0.04575749	b = y ;	0
+-0.04575749	, int y ,	0
+0	, int z )	0
+0	( ) { </s>
+0	n ) { </s>
+0	v ) { </s>
+0	x ) { </s>
+0	z ) { </s>
+
+\5-grams:
+-0.04575749	+ a + " b	0
+-0.04575749	+ b + " c	0
+-0.04575749	return "a = " +	0
+-0.04575749	" b = " +	0
+-0.04575749	" c = " +	0
+-0.1760913	method go. r1 " +	0
+0	. println ( "In method	0
+0	+ r1 + "\n" )	0
+-0.04575749	v . a && this	0
+-0.04575749	v . b && this	0
+-0.4929155	<s> public VanillaBoilerplate ( )	0
+-0.4929155	<s> public VanillaBoilerplate ( VanillaBoilerplate	0
+-0.4929155	<s> public VanillaBoilerplate ( int	0
+-0.04575749	public boolean equals ( VanillaBoilerplate	0
+-0.04575749	public int getA ( )	0
+-0.04575749	public int getB ( )	0
+-0.04575749	public int getC ( )	0
+-0.1760913	out . println ( "In	0
+-0.0234811	public void setA ( int	0
+-0.04575749	public void setB ( int	0
+-0.04575749	public void setC ( int	0
+-0.04575749	public string toString ( )	0
+-0.1760913	r1 + "\n" ) ;	0
+-0.04575749	public VanillaBoilerplate ( ) {	0
+-0.04575749	int getA ( ) {	0
+-0.04575749	int getB ( ) {	0
+-0.04575749	int getC ( ) {	0
+-0.04575749	string toString ( ) {	0
+-0.1760913	( int n ) {	0
+-0.0234811	( VanillaBoilerplate v ) {	0
+-0.01189922	( int x ) {	0
+-0.04575749	, int z ) {	0
+-0.04575749	"a = " + a	0
+-0.04575749	b = " + b	0
+-0.04575749	c = " + c	0
+-0.1760913	go. r1 " + r1	0
+-0.04575749	" + a + "	0
+-0.04575749	" + b + "	0
+-0.1760913	" + r1 + "\n"	0
+-0.04575749	( int x , int	0
+-0.04575749	, int y , int	0
+-0.1760913	System . out . println	0
+-0.04575749	a && this . b	0
+-0.04575749	b && this . c	0
+-0.3129292	<s> return this . a	0
+-0.6139592	<s> return this . b	0
+-0.6139592	<s> return this . c	0
+-0.04575749	a = v . a	0
+-0.04575749	b = v . b	0
+-0.04575749	c = v . c	0
+-0.04575749	a == v . a	0
+-0.04575749	b == v . b	0
+-0.04575749	c == v . c	0
+-0.04575749	<s> a = 0 ;	0
+-0.04575749	<s> b = 0 ;	0
+-0.04575749	<s> c = 0 ;	0
+-0.1760913	int result = 0 ;	0
+-0.1760913	( n - 1 )
+-0.1760913	<s> result = 1 ;	0
+-0.1760913	+ "\n" ) ; </s>
+-0.04575749	a = 0 ; </s>
+-0.04575749	b = 0 ; </s>
+-0.04575749	c = 0 ; </s>
+-0.1760913	result = 0 ; </s>
+-0.1760913	result = 1 ; </s>
+-0.04575749	this . a ; </s>
+-0.04575749	v . a ; </s>
+-0.04575749	private int a ; </s>
+-0.04575749	this . b ; </s>
+-0.04575749	v . b ; </s>
+-0.04575749	private int b ; </s>
+-0.04575749	" + c ; </s>
+-0.04575749	this . c ; </s>
+-0.0234811	v . c ; </s>
+-0.04575749	c = c ; </s>
+-0.04575749	private int c ; </s>
+-0.1760913	<s> return result ; </s>
+-0.01579427	a = x ; </s>
+-0.04575749	b = x ; </s>
+-0.04575749	c = x ; </s>
+-0.04575749	b = y ; </s>
+-0.04575749	<s> return "a = "	0
+-0.6139592	this . a = v	0
+-0.136838	this . a = x	0
+-0.04575749	+ " b = "	0
+-0.4929155	this . b = v	0
+-0.4929155	this . b = x	0
+-0.4929155	this . b = y	0
+-0.04575749	+ " c = "	0
+-0.4929155	this . c = c	0
+-0.4929155	this . c = v	0
+-0.4929155	this . c = x	0
+-0.1760913	<s> int result = 0	0
+-0.04575749	this . a == v	0
+-0.04575749	this . b == v	0
+-0.04575749	this . c == v	0
+-0.04575749	public VanillaBoilerplate ( VanillaBoilerplate v	0
+-0.04575749	boolean equals ( VanillaBoilerplate v	0
+-0.1760913	<s> public class VanillaBoilerplate </s>
+-0.05799195	} public class VanillaBoilerplate </s>
+-0.04575749	= " + a +	0
+-0.01189922	<s> this . a =	0
+-0.3245111	return this . a ;	0
+-0.3245111	return this . a ==	0
+-0.04575749	= v . a ;	0
+-0.04575749	== v . a &&	0
+-0.04575749	<s> private int a ;	0
+-0.04575749	a + " b =	0
+-0.04575749	= " + b +	0
+-0.04575749	&& this . b ==	0
+-0.01579427	<s> this . b =	0
+-0.04575749	return this . b ;	0
+-0.04575749	= v . b ;	0
+-0.04575749	== v . b &&	0
+-0.04575749	<s> private int b ;	0
+-0.04575749	b + " c =	0
+-0.04575749	= " + c ;	0
+-0.04575749	&& this . c ==	0
+-0.01579427	<s> this . c =	0
+-0.04575749	return this . c ;	0
+-0.04575749	= v . c ;	0.2787536
+-0.04575749	== v . c ;	0.2787536
+-0.04575749	. c = c ;	0
+-0.04575749	<s> private int c ;	0
+0	<s> } public class VanillaBoilerplate	0
+0	<s> public boolean equals (	0
+0	<s> public int getA (	0
+0	<s> public int getB (	0
+0	<s> public int getC (	0
+0	( "In method go. r1	0
+-0.04575749	public VanillaBoilerplate ( int x	0
+-0.0234811	void setA ( int x	0
+-0.04575749	void setB ( int x	0
+-0.04575749	void setC ( int x	0
+-0.04575749	int x , int y	0
+-0.04575749	int y , int z	0
+0	println ( "In method go.	0
+-0.1760913	<s> if ( n ==
+0	<s> System . out .	0
+0	. out . println (	0
+-0.1760913	r1 " + r1 +	0
+-0.1760913	"In method go. r1 "	0
+0	<s> public void setA (	0
+0	<s> public void setB (	0
+0	<s> public void setC (	0
+0	. a && this .	0
+0	. b && this .	0
+0	<s> public string toString (	0
+-0.04575749	. a = v .	0
+-0.04575749	. b = v .	0
+-0.04575749	. c = v .	0
+-0.04575749	. a == v .	0
+-0.04575749	. b == v .	0
+-0.04575749	. c == v .	0
+-0.04575749	VanillaBoilerplate ( VanillaBoilerplate v )	0.2787536
+-0.04575749	equals ( VanillaBoilerplate v )	0.2787536
+-0.01579427	. a = x ;	0
+-0.04575749	. b = x ;	0
+-0.04575749	. c = x ;	0
+-0.04575749	VanillaBoilerplate ( int x ,	0
+-0.0234811	setA ( int x )	0.289448
+-0.04575749	setB ( int x )	0.5682017
+-0.04575749	setC ( int x )	0.5682017
+-0.04575749	. b = y ;	0
+-0.04575749	x , int y ,	0
+0	y , int z )	0
+0	VanillaBoilerplate ( ) { </s>
+0	getA ( ) { </s>
+0	getB ( ) { </s>
+0	getC ( ) { </s>
+0	toString ( ) { </s>
+0	int n ) { </s>
+0	VanillaBoilerplate v ) { </s>
+0	int x ) { </s>
+0	int z ) { </s>
+
+\6-grams:
+-0.04575749	" + a + " b	0
+-0.04575749	" + b + " c	0
+-0.04575749	<s> return "a = " +	0
+-0.04575749	+ " b = " +	0
+-0.04575749	+ " c = " +	0
+-0.1760913	"In method go. r1 " +	0
+0	out . println ( "In method	0
+0	" + r1 + "\n" )	0
+-0.04575749	== v . a && this	0
+-0.04575749	== v . b && this	0
+-0.04575749	<s> public boolean equals ( VanillaBoilerplate	0
+-0.04575749	<s> public int getA ( )	0
+-0.04575749	<s> public int getB ( )	0
+-0.04575749	<s> public int getC ( )	0
+-0.1760913	. out . println ( "In	0
+-0.0234811	<s> public void setA ( int	0
+-0.04575749	<s> public void setB ( int	0
+-0.04575749	<s> public void setC ( int	0
+-0.04575749	<s> public string toString ( )	0
+-0.1760913	+ r1 + "\n" ) ;	0
+-0.04575749	<s> public VanillaBoilerplate ( ) {	0
+-0.04575749	public int getA ( ) {	0
+-0.04575749	public int getB ( ) {	0
+-0.04575749	public int getC ( ) {	0
+-0.04575749	public string toString ( ) {	0
+-0.04575749	VanillaBoilerplate ( VanillaBoilerplate v ) {	0
+-0.04575749	equals ( VanillaBoilerplate v ) {	0
+-0.0234811	setA ( int x ) {	0
+-0.04575749	setB ( int x ) {	0
+-0.04575749	setC ( int x ) {	0
+-0.04575749	y , int z ) {	0
+-0.04575749	return "a = " + a	0
+-0.04575749	" b = " + b	0
+-0.04575749	" c = " + c	0
+-0.1760913	method go. r1 " + r1	0
+-0.04575749	= " + a + "	0
+-0.04575749	= " + b + "	0
+-0.1760913	r1 " + r1 + "\n"	0
+-0.04575749	VanillaBoilerplate ( int x , int	0
+-0.04575749	x , int y , int	0
+-0.1760913	<s> System . out . println	0
+-0.04575749	. a && this . b	0
+-0.04575749	. b && this . c	0
+-0.04575749	. a = v . a	0
+-0.04575749	. b = v . b	0
+-0.04575749	. c = v . c	0
+-0.04575749	. a == v . a	0
+-0.04575749	. b == v . b	0
+-0.04575749	. c == v . c	0
+-0.1760913	<s> int result = 0 ;	0
+-0.1760913	r1 + "\n" ) ; </s>
+-0.04575749	<s> a = 0 ; </s>
+-0.04575749	<s> b = 0 ; </s>
+-0.04575749	<s> c = 0 ; </s>
+-0.1760913	int result = 0 ; </s>
+-0.1760913	<s> result = 1 ; </s>
+-0.04575749	return this . a ; </s>
+-0.04575749	= v . a ; </s>
+-0.04575749	<s> private int a ; </s>
+-0.04575749	return this . b ; </s>
+-0.04575749	= v . b ; </s>
+-0.04575749	<s> private int b ; </s>
+-0.04575749	= " + c ; </s>
+-0.04575749	return this . c ; </s>
+-0.04575749	= v . c ; </s>
+-0.04575749	== v . c ; </s>
+-0.04575749	. c = c ; </s>
+-0.04575749	<s> private int c ; </s>
+-0.01579427	. a = x ; </s>
+-0.04575749	. b = x ; </s>
+-0.04575749	. c = x ; </s>
+-0.04575749	. b = y ; </s>
+-0.6139592	<s> this . a = v	0
+-0.136838	<s> this . a = x	0
+-0.04575749	a + " b = "	0
+-0.4929155	<s> this . b = v	0
+-0.4929155	<s> this . b = x	0
+-0.4929155	<s> this . b = y	0
+-0.04575749	b + " c = "	0
+-0.4929155	<s> this . c = c	0
+-0.4929155	<s> this . c = v	0
+-0.4929155	<s> this . c = x	0
+-0.04575749	return this . a == v	0
+-0.04575749	&& this . b == v	0
+-0.04575749	&& this . c == v	0
+-0.04575749	<s> public VanillaBoilerplate ( VanillaBoilerplate v	0
+-0.04575749	public boolean equals ( VanillaBoilerplate v	0
+-0.05799195	<s> } public class VanillaBoilerplate </s>
+-0.04575749	"a = " + a +	0
+-0.3245111	<s> return this . a ;	0
+-0.3245111	<s> return this . a ==	0
+-0.04575749	a = v . a ;	0
+-0.04575749	a == v . a &&	0
+-0.04575749	+ a + " b =	0
+-0.04575749	b = " + b +	0
+-0.04575749	a && this . b ==	0
+-0.04575749	<s> return this . b ;	0
+-0.04575749	b = v . b ;	0
+-0.04575749	b == v . b &&	0
+-0.04575749	+ b + " c =	0
+-0.04575749	c = " + c ;	0
+-0.04575749	b && this . c ==	0
+-0.04575749	<s> return this . c ;	0
+-0.04575749	c = v . c ;	0
+-0.04575749	c == v . c ;	0
+-0.04575749	this . c = c ;	0
+0	println ( "In method go. r1	0
+-0.04575749	<s> public VanillaBoilerplate ( int x	0
+-0.0234811	public void setA ( int x	0
+-0.04575749	public void setB ( int x	0
+-0.04575749	public void setC ( int x	0
+-0.04575749	( int x , int y	0
+-0.04575749	, int y , int z	0
+0	. println ( "In method go.	0
+0	System . out . println (	0
+-0.1760913	go. r1 " + r1 +	0
+-0.1760913	( "In method go. r1 "	0
+0	v . a && this .	0
+0	v . b && this .	0
+-0.04575749	this . a = v .	0
+-0.04575749	this . b = v .	0
+-0.04575749	this . c = v .	0
+-0.04575749	this . a == v .	0
+-0.04575749	this . b == v .	0
+-0.04575749	this . c == v .	0
+-0.04575749	public VanillaBoilerplate ( VanillaBoilerplate v )	0
+-0.04575749	boolean equals ( VanillaBoilerplate v )	0
+-0.01579427	this . a = x ;	0
+-0.04575749	this . b = x ;	0
+-0.04575749	this . c = x ;	0
+-0.04575749	public VanillaBoilerplate ( int x ,	0
+-0.0234811	void setA ( int x )	0
+-0.04575749	void setB ( int x )	0
+-0.04575749	void setC ( int x )	0
+-0.04575749	this . b = y ;	0
+-0.04575749	int x , int y ,	0
+0	int y , int z )	0
+0	public VanillaBoilerplate ( ) { </s>
+0	int getA ( ) { </s>
+0	int getB ( ) { </s>
+0	int getC ( ) { </s>
+0	string toString ( ) { </s>
+0	( int n ) { </s>
+0	( VanillaBoilerplate v ) { </s>
+0	( int x ) { </s>
+0	, int z ) { </s>
+
+\7-grams:
+-0.04575749	= " + a + " b	0
+-0.04575749	= " + b + " c	0
+-0.04575749	a + " b = " +	0
+-0.04575749	b + " c = " +	0
+-0.1760913	( "In method go. r1 " +	0
+0	. out . println ( "In method	0
+0	r1 " + r1 + "\n" )	0
+-0.04575749	a == v . a && this	0
+-0.04575749	b == v . b && this	0
+-0.1760913	System . out . println ( "In	0
+-0.1760913	" + r1 + "\n" ) ;	0
+-0.04575749	<s> public int getA ( ) {	0
+-0.04575749	<s> public int getB ( ) {	0
+-0.04575749	<s> public int getC ( ) {	0
+-0.04575749	<s> public string toString ( ) {	0
+-0.04575749	public VanillaBoilerplate ( VanillaBoilerplate v ) {	0
+-0.04575749	boolean equals ( VanillaBoilerplate v ) {	0
+-0.0234811	void setA ( int x ) {	0
+-0.04575749	void setB ( int x ) {	0
+-0.04575749	void setC ( int x ) {	0
+-0.04575749	int y , int z ) {	0
+-0.04575749	<s> return "a = " + a	0
+-0.04575749	+ " b = " + b	0
+-0.04575749	+ " c = " + c	0
+-0.1760913	"In method go. r1 " + r1	0
+-0.04575749	"a = " + a + "	0
+-0.04575749	b = " + b + "	0
+-0.1760913	go. r1 " + r1 + "\n"	0
+-0.04575749	public VanillaBoilerplate ( int x , int	0
+-0.04575749	int x , int y , int	0
+-0.04575749	v . a && this . b	0
+-0.04575749	v . b && this . c	0
+-0.04575749	this . a = v . a	0
+-0.04575749	this . b = v . b	0
+-0.04575749	this . c = v . c	0
+-0.04575749	this . a == v . a	0
+-0.04575749	this . b == v . b	0
+-0.04575749	this . c == v . c	0
+-0.1760913	+ r1 + "\n" ) ; </s>
+-0.1760913	<s> int result = 0 ; </s>
+-0.04575749	<s> return this . a ; </s>
+-0.04575749	a = v . a ; </s>
+-0.04575749	<s> return this . b ; </s>
+-0.04575749	b = v . b ; </s>
+-0.04575749	c = " + c ; </s>
+-0.04575749	<s> return this . c ; </s>
+-0.04575749	c = v . c ; </s>
+-0.04575749	c == v . c ; </s>
+-0.04575749	this . c = c ; </s>
+-0.01579427	this . a = x ; </s>
+-0.04575749	this . b = x ; </s>
+-0.04575749	this . c = x ; </s>
+-0.04575749	this . b = y ; </s>
+-0.04575749	+ a + " b = "	0
+-0.04575749	+ b + " c = "	0
+-0.04575749	<s> return this . a == v	0
+-0.04575749	a && this . b == v	0
+-0.04575749	b && this . c == v	0
+-0.04575749	<s> public boolean equals ( VanillaBoilerplate v	0
+-0.04575749	return "a = " + a +	0
+-0.04575749	. a = v . a ;	0
+-0.04575749	. a == v . a &&	0
+-0.04575749	" + a + " b =	0
+-0.04575749	" b = " + b +	0
+-0.04575749	. a && this . b ==	0
+-0.04575749	. b = v . b ;	0
+-0.04575749	. b == v . b &&	0
+-0.04575749	" + b + " c =	0
+-0.04575749	" c = " + c ;	0
+-0.04575749	. b && this . c ==	0
+-0.04575749	. c = v . c ;	0
+-0.04575749	. c == v . c ;	0
+-0.04575749	<s> this . c = c ;	0
+0	. println ( "In method go. r1	0
+-0.0234811	<s> public void setA ( int x	0
+-0.04575749	<s> public void setB ( int x	0
+-0.04575749	<s> public void setC ( int x	0
+-0.04575749	VanillaBoilerplate ( int x , int y	0
+-0.04575749	x , int y , int z	0
+0	out . println ( "In method go.	0
+0	<s> System . out . println (	0
+-0.1760913	method go. r1 " + r1 +	0
+-0.1760913	println ( "In method go. r1 "	0
+0	== v . a && this .	0
+0	== v . b && this .	0
+-0.04575749	<s> this . a = v .	0
+-0.04575749	<s> this . b = v .	0
+-0.04575749	<s> this . c = v .	0
+-0.04575749	return this . a == v .	0
+-0.04575749	&& this . b == v .	0
+-0.04575749	&& this . c == v .	0
+-0.04575749	<s> public VanillaBoilerplate ( VanillaBoilerplate v )	0
+-0.04575749	public boolean equals ( VanillaBoilerplate v )	0
+-0.01579427	<s> this . a = x ;	0
+-0.04575749	<s> this . b = x ;	0
+-0.04575749	<s> this . c = x ;	0
+-0.04575749	<s> public VanillaBoilerplate ( int x ,	0
+-0.0234811	public void setA ( int x )	0
+-0.04575749	public void setB ( int x )	0
+-0.04575749	public void setC ( int x )	0
+-0.04575749	<s> this . b = y ;	0
+-0.04575749	( int x , int y ,	0
+0	, int y , int z )	0
+0	<s> public VanillaBoilerplate ( ) { </s>
+0	public int getA ( ) { </s>
+0	public int getB ( ) { </s>
+0	public int getC ( ) { </s>
+0	public string toString ( ) { </s>
+0	VanillaBoilerplate ( VanillaBoilerplate v ) { </s>
+0	equals ( VanillaBoilerplate v ) { </s>
+0	setA ( int x ) { </s>
+0	setB ( int x ) { </s>
+0	setC ( int x ) { </s>
+0	y , int z ) { </s>
+
+\8-grams:
+-0.04575749	"a = " + a + " b	0
+-0.04575749	b = " + b + " c	0
+-0.04575749	+ a + " b = " +	0
+-0.04575749	+ b + " c = " +	0
+-0.1760913	println ( "In method go. r1 " +	0
+0	System . out . println ( "In method	0
+0	go. r1 " + r1 + "\n" )	0
+-0.04575749	. a == v . a && this	0
+-0.04575749	. b == v . b && this	0
+-0.1760913	<s> System . out . println ( "In	0
+-0.1760913	r1 " + r1 + "\n" ) ;	0
+-0.04575749	<s> public VanillaBoilerplate ( VanillaBoilerplate v ) {	0
+-0.04575749	public boolean equals ( VanillaBoilerplate v ) {	0
+-0.0234811	public void setA ( int x ) {	0
+-0.04575749	public void setB ( int x ) {	0
+-0.04575749	public void setC ( int x ) {	0
+-0.04575749	, int y , int z ) {	0
+-0.04575749	a + " b = " + b	0
+-0.04575749	b + " c = " + c	0
+-0.1760913	( "In method go. r1 " + r1	0
+-0.04575749	return "a = " + a + "	0
+-0.04575749	" b = " + b + "	0
+-0.1760913	method go. r1 " + r1 + "\n"	0
+-0.04575749	<s> public VanillaBoilerplate ( int x , int	0
+-0.04575749	( int x , int y , int	0
+-0.04575749	== v . a && this . b	0
+-0.04575749	== v . b && this . c	0
+-0.04575749	<s> this . a = v . a	0
+-0.04575749	<s> this . b = v . b	0
+-0.04575749	<s> this . c = v . c	0
+-0.04575749	return this . a == v . a	0
+-0.04575749	&& this . b == v . b	0
+-0.04575749	&& this . c == v . c	0
+-0.1760913	" + r1 + "\n" ) ; </s>
+-0.04575749	. a = v . a ; </s>
+-0.04575749	. b = v . b ; </s>
+-0.04575749	" c = " + c ; </s>
+-0.04575749	. c = v . c ; </s>
+-0.04575749	. c == v . c ; </s>
+-0.04575749	<s> this . c = c ; </s>
+-0.01579427	<s> this . a = x ; </s>
+-0.04575749	<s> this . b = x ; </s>
+-0.04575749	<s> this . c = x ; </s>
+-0.04575749	<s> this . b = y ; </s>
+-0.04575749	" + a + " b = "	0
+-0.04575749	" + b + " c = "	0
+-0.04575749	. a && this . b == v	0
+-0.04575749	. b && this . c == v	0
+-0.04575749	<s> return "a = " + a +	0
+-0.04575749	this . a = v . a ;	0
+-0.04575749	this . a == v . a &&	0
+-0.04575749	= " + a + " b =	0
+-0.04575749	+ " b = " + b +	0
+-0.04575749	v . a && this . b ==	0
+-0.04575749	this . b = v . b ;	0
+-0.04575749	this . b == v . b &&	0
+-0.04575749	= " + b + " c =	0
+-0.04575749	+ " c = " + c ;	0
+-0.04575749	v . b && this . c ==	0
+-0.04575749	this . c = v . c ;	0
+-0.04575749	this . c == v . c ;	0
+0	out . println ( "In method go. r1	0
+-0.04575749	public VanillaBoilerplate ( int x , int y	0
+-0.04575749	int x , int y , int z	0
+0	. out . println ( "In method go.	0
+-0.1760913	"In method go. r1 " + r1 +	0
+-0.1760913	. println ( "In method go. r1 "	0
+0	a == v . a && this .	0
+0	b == v . b && this .	0
+-0.04575749	<s> return this . a == v .	0
+-0.04575749	a && this . b == v .	0
+-0.04575749	b && this . c == v .	0
+-0.04575749	<s> public boolean equals ( VanillaBoilerplate v )	0
+-0.0234811	<s> public void setA ( int x )	0
+-0.04575749	<s> public void setB ( int x )	0
+-0.04575749	<s> public void setC ( int x )	0
+-0.04575749	VanillaBoilerplate ( int x , int y ,	0
+0	x , int y , int z )	0
+0	<s> public int getA ( ) { </s>
+0	<s> public int getB ( ) { </s>
+0	<s> public int getC ( ) { </s>
+0	<s> public string toString ( ) { </s>
+0	public VanillaBoilerplate ( VanillaBoilerplate v ) { </s>
+0	boolean equals ( VanillaBoilerplate v ) { </s>
+0	void setA ( int x ) { </s>
+0	void setB ( int x ) { </s>
+0	void setC ( int x ) { </s>
+0	int y , int z ) { </s>
+
+\9-grams:
+-0.04575749	return "a = " + a + " b
+-0.04575749	" b = " + b + " c
+-0.04575749	" + a + " b = " +
+-0.04575749	" + b + " c = " +
+-0.1760913	. println ( "In method go. r1 " +
+0	<s> System . out . println ( "In method
+0	method go. r1 " + r1 + "\n" )
+-0.04575749	this . a == v . a && this
+-0.04575749	this . b == v . b && this
+-0.1760913	go. r1 " + r1 + "\n" ) ;
+-0.04575749	<s> public boolean equals ( VanillaBoilerplate v ) {
+-0.0234811	<s> public void setA ( int x ) {
+-0.04575749	<s> public void setB ( int x ) {
+-0.04575749	<s> public void setC ( int x ) {
+-0.04575749	x , int y , int z ) {
+-0.04575749	+ a + " b = " + b
+-0.04575749	+ b + " c = " + c
+-0.1760913	println ( "In method go. r1 " + r1
+-0.04575749	<s> return "a = " + a + "
+-0.04575749	+ " b = " + b + "
+-0.1760913	"In method go. r1 " + r1 + "\n"
+-0.04575749	VanillaBoilerplate ( int x , int y , int
+-0.04575749	a == v . a && this . b
+-0.04575749	b == v . b && this . c
+-0.04575749	<s> return this . a == v . a
+-0.04575749	a && this . b == v . b
+-0.04575749	b && this . c == v . c
+-0.1760913	r1 " + r1 + "\n" ) ; </s>
+-0.04575749	this . a = v . a ; </s>
+-0.04575749	this . b = v . b ; </s>
+-0.04575749	+ " c = " + c ; </s>
+-0.04575749	this . c = v . c ; </s>
+-0.04575749	this . c == v . c ; </s>
+-0.04575749	= " + a + " b = "
+-0.04575749	= " + b + " c = "
+-0.04575749	v . a && this . b == v
+-0.04575749	v . b && this . c == v
+-0.04575749	<s> this . a = v . a ;
+-0.04575749	return this . a == v . a &&
+-0.04575749	"a = " + a + " b =
+-0.04575749	a + " b = " + b +
+-0.04575749	== v . a && this . b ==
+-0.04575749	<s> this . b = v . b ;
+-0.04575749	&& this . b == v . b &&
+-0.04575749	b = " + b + " c =
+-0.04575749	b + " c = " + c ;
+-0.04575749	== v . b && this . c ==
+-0.04575749	<s> this . c = v . c ;
+-0.04575749	&& this . c == v . c ;
+0	. out . println ( "In method go. r1
+-0.04575749	<s> public VanillaBoilerplate ( int x , int y
+-0.04575749	( int x , int y , int z
+0	System . out . println ( "In method go.
+-0.1760913	( "In method go. r1 " + r1 +
+-0.1760913	out . println ( "In method go. r1 "
+0	. a == v . a && this .
+0	. b == v . b && this .
+-0.04575749	. a && this . b == v .
+-0.04575749	. b && this . c == v .
+-0.04575749	public VanillaBoilerplate ( int x , int y ,
+0	int x , int y , int z )
+0	<s> public VanillaBoilerplate ( VanillaBoilerplate v ) { </s>
+0	public boolean equals ( VanillaBoilerplate v ) { </s>
+0	public void setA ( int x ) { </s>
+0	public void setB ( int x ) { </s>
+0	public void setC ( int x ) { </s>
+0	, int y , int z ) { </s>
+
+\end\
